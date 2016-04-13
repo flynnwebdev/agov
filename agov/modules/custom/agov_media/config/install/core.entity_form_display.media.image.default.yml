@@ -7,7 +7,6 @@ dependencies:
     - media_entity.bundle.image
   module:
     - image
-    - workbench_moderation
 id: media.image.default
 targetEntityType: media
 bundle: image
