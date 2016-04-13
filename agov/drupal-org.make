@@ -55,6 +55,12 @@ projects[password_policy][download][revision] = 40f8e14bb6759ac201bffec0c5ffd0b4
 projects[password_policy][patch][] = https://www.drupal.org/files/issues/2692709-undefined-indexes.patch
 projects[password_policy][patch][] = https://www.drupal.org/files/issues/2697777-php7-1.patch
 
+projects[media_entity][type] = module
+projects[media_entity][download][type] = git
+projects[media_entity][download][url] = https://git.drupal.org/project/media_entity.git
+projects[media_entity][download][branch] = 8.x-1.x
+projects[media_entity][download][revision] = 040c5ffbca99aba64bdf686923df20b7251e3cb8
+
 ; Development Modules
 projects[config_devel][version] = '1.0-rc1'
 projects[config_devel][subdir] = 'development'
