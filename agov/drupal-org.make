@@ -15,7 +15,7 @@ projects[metatag][version] = '1.x-dev'
 projects[agls][version] = '1.x-dev'
 projects[scheduled_updates][version] = '1.0-alpha5'
 projects[simple_sitemap][version] = '2.2'
-projects[video_embed_field][version] = '1.0-rc6'
+projects[video_embed_field][version] = '1.0-rc7'
 
 projects[panels][version] = 3.0-beta2
 projects[panels][patch][] = https://www.drupal.org/files/issues/2699529-quote-colons-beta4-3.patch
