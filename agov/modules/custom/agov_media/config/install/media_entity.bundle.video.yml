@@ -7,7 +7,6 @@ id: video
 label: Video
 description: 'A media bundle to store videos. '
 type: video_embed_field
-queue_thumbnail_downloads: true
-type_configuration:
-  source_field: field_media_video_embed_field
+queue_thumbnail_downloads: false
+type_configuration: {  }
 field_map: {  }
