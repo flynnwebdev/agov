@@ -15,6 +15,7 @@ projects[metatag][version] = '1.x-dev'
 projects[agls][version] = '1.x-dev'
 projects[scheduled_updates][version] = '1.0-alpha5'
 projects[simple_sitemap][version] = '2.2'
+projects[video_embed_field][version] = 'rc6'
 
 projects[panels][version] = 3.0-beta2
 projects[panels][patch][] = https://www.drupal.org/files/issues/2699529-quote-colons-beta4-3.patch
@@ -59,6 +60,12 @@ projects[media_entity][download][type] = git
 projects[media_entity][download][url] = https://git.drupal.org/project/media_entity.git
 projects[media_entity][download][branch] = 8.x-1.x
 projects[media_entity][download][revision] = 040c5ffbca99aba64bdf686923df20b7251e3cb8
+
+projects[media_entity_image][type] = module
+projects[media_entity_image][download][type] = git
+projects[media_entity_image][download][url] = https://git.drupal.org/project/media_entity_image.git
+projects[media_entity_image][download][branch] = 8.x-1.x
+projects[media_entity_image][download][revision] = b9608766b7ff582841b6c9083aa1037734c1b7d7
 
 projects[inline_entity_form][type] = module
 projects[inline_entity_form][download][type] = git
