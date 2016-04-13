@@ -14,7 +14,6 @@ projects[workbench_moderation][version] = '1.0-alpha2'
 projects[metatag][version] = '1.x-dev'
 projects[agls][version] = '1.x-dev'
 projects[scheduled_updates][version] = '1.0-alpha5'
-projects[inline_entity_form][version] = '1.0-alpha5'
 projects[simple_sitemap][version] = '2.2'
 
 projects[panels][version] = 3.0-beta2
@@ -60,6 +59,12 @@ projects[media_entity][download][type] = git
 projects[media_entity][download][url] = https://git.drupal.org/project/media_entity.git
 projects[media_entity][download][branch] = 8.x-1.x
 projects[media_entity][download][revision] = 040c5ffbca99aba64bdf686923df20b7251e3cb8
+
+projects[inline_entity_form][type] = module
+projects[inline_entity_form][download][type] = git
+projects[inline_entity_form][download][url] = https://git.drupal.org/project/inline_entity_form.git
+projects[inline_entity_form][download][branch] = 8.x-1.x
+projects[inline_entity_form][download][revision] = 274143d6748b8aaa02eb9dcc3296bf17ffddeee3
 
 ; Development Modules
 projects[config_devel][version] = '1.0-rc1'
