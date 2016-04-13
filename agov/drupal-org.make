@@ -61,6 +61,7 @@ projects[media_entity][download][url] = https://git.drupal.org/project/media_ent
 projects[media_entity][download][branch] = 8.x-1.x
 projects[media_entity][download][revision] = 040c5ffbca99aba64bdf686923df20b7251e3cb8
 projects[media_entity][patch][] = https://www.drupal.org/files/issues/2705193-thumbnail-owner-2.patch
+projects[media_entity][patch][] = https://www.drupal.org/files/issues/2705351-fix-method-call.patch
 
 projects[media_entity_image][type] = module
 projects[media_entity_image][download][type] = git
