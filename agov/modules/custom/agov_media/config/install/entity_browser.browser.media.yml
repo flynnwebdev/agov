@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: media
+label: Media
+display: iframe
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: multi_step_display
+selection_display_configuration:
+  entity_type: media
+  display: rendered_entity
+  display_settings:
+    view_mode: ''
+widget_selector: drop_down
+widget_selector_configuration: {  }
+widgets: {  }
