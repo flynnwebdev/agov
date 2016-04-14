@@ -23,3 +23,4 @@ config_devel:
   - media_entity.bundle.video
   - embed.button.embed
   - filter.format.text_and_media
+  - editor.editor.text_and_media
