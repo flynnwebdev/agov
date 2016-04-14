@@ -76,12 +76,6 @@ projects[entity_embed][download][url] = https://git.drupal.org/project/entity_em
 projects[entity_embed][download][branch] = 8.x-1.x
 projects[entity_embed][download][revision] = 509fc57267e80371581ba8a65b3a4b68fe9add3e
 
-projects[entity_browser][type] = module
-projects[entity_browser][download][type] = git
-projects[entity_browser][download][url] = https://git.drupal.org/project/entity_browser.git
-projects[entity_browser][download][branch] = 8.x-1.x
-projects[entity_browser][download][revision] = 5b72762aa220d8dcdd1e3414d29f1b6634af4c35
-
 projects[inline_entity_form][type] = module
 projects[inline_entity_form][download][type] = git
 projects[inline_entity_form][download][url] = https://git.drupal.org/project/inline_entity_form.git

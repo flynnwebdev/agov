@@ -13,7 +13,6 @@ type_settings:
   display_plugins:
     - 'entity_reference:entity_reference_entity_view'
     - 'entity_reference:media_thumbnail'
-  entity_browser: media
-  entity_browser_settings:
-    display_review: true
+  entity_browser: ''
+  entity_browser_settings: null
 icon_uuid: null

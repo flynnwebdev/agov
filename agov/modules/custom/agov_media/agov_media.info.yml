@@ -22,6 +22,5 @@ config_devel:
   - field.storage.media.field_media_video_embed_field
   - media_entity.bundle.image
   - media_entity.bundle.video
-
-  - entity_browser.browser.media
   - embed.button.embed
+  - filter.format.text_and_media
