@@ -10,6 +10,7 @@ dependencies:
   - video_embed_media
   - entity_embed
   - entity_browser
+  - entity_browser_entity_form
 
 config_devel:
   - core.entity_form_display.media.image.default
