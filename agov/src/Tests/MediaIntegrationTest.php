@@ -42,9 +42,10 @@ class MediaIntegrationTest extends AgovTestBase {
    */
   public function testMediaIntegration() {
     $this->drupalLogin($this->adminUser);
-    $this->drupalGet('entity-embed/dialog/text_and_media/embed');
-//    $this->assertLink();
-//    $this->assertLink();
+    $this->drupalGet('entity-browser/iframe/media_browser');
+    $this->assertLink('Add Existing');
+    $this->assertLink('Upload Image');
+    $this->assertLink('Add Video');
   }
 
 }
