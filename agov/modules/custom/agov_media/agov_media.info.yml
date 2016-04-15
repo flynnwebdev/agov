@@ -9,6 +9,7 @@ dependencies:
   - media_entity_image
   - video_embed_media
   - entity_embed
+  - entity_browser
 
 config_devel:
   - core.entity_form_display.media.image.default
@@ -24,3 +25,5 @@ config_devel:
   - embed.button.embed
   - filter.format.text_and_media
   - editor.editor.text_and_media
+  - views.view.media_browser
+  - entity_browser.browser.media_browser

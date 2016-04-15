@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - views
+name: media_browser
+label: 'Media Browser'
+display: iframe
+display_configuration:
+  width: '1140'
+  height: '768'
+  link_text: 'Select items'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  3bc4ec79-86e9-4e60-a2ff-47526c6550f9:
+    settings:
+      view: media_browser
+      view_display: entity_browser_1
+    uuid: 3bc4ec79-86e9-4e60-a2ff-47526c6550f9
+    weight: 1
+    label: Add
+    id: view
