@@ -10,10 +10,41 @@ namespace Drupal\agov\Tests;
 class MediaIntegrationTest extends AgovTestBase {
 
   /**
+   * The admin user.
+   *
+   * @var \Drupal\user\Entity\User
+   */
+  protected $adminUser;
+
+  /**
+   * {@inheritdoc}
+   */
+  protected function setUp() {
+    parent::setUp();
+    $this->adminUser = $this->drupalCreateUser([
+      'access media_browser entity browser pages',
+      'administer media display',
+      'administer media fields',
+      'administer media form display',
+      'use text format text_and_media',
+      'administer media',
+      'create media',
+      'delete any media',
+      'delete media',
+      'update any media',
+      'update media',
+      'view media',
+    ]);
+  }
+
+  /**
    * Test the media integration is working.
    */
   public function testMediaIntegration() {
+    $this->drupalLogin($this->adminUser);
     $this->drupalGet('entity-embed/dialog/text_and_media/embed');
+//    $this->assertLink();
+//    $this->assertLink();
   }
 
 }
