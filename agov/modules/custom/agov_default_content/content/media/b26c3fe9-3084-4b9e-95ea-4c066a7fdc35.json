@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/media\/14?_format=hal_json"
+            "href": "http:\/\/default\/media\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
@@ -9,17 +9,6 @@
         "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/video_thumbnails\/155212414.jpg"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -58,48 +47,13 @@
                 },
                 "uuid": [
                     {
-                        "value": "eb3cc083-b621-4000-9ffe-f4f18e48478f"
+                        "value": "402f7346-5b6c-4491-bf2c-5c0e6c18cf33"
                     }
                 ],
                 "alt": "Thumbnail",
                 "title": "Leopard in the snow in Gulmarg, Kashmir",
                 "width": "640",
                 "height": "480"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ]
             }
         ]
     },

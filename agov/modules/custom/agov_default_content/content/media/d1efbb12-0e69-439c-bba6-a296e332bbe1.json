@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/media\/11?_format=hal_json"
+            "href": "http:\/\/default\/media\/2?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
@@ -9,17 +9,6 @@
         "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/video_thumbnails\/151457002.jpg"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -58,48 +47,13 @@
                 },
                 "uuid": [
                     {
-                        "value": "c76a4655-40d3-4ec3-bbc0-b5ce38dc9adf"
+                        "value": "d2b5ecfd-63dd-498d-b509-9b33b0efda0d"
                     }
                 ],
                 "alt": "Thumbnail",
                 "title": "aGov 8 Demo",
                 "width": "640",
                 "height": "360"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ]
             }
         ]
     },

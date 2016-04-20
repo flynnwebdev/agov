@@ -19,7 +19,7 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/standard_page\/field_standard_page_image": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/services_5_0_0_0_0.jpg"
+                "href": "http:\/\/default\/sites\/default\/files\/services_5_0_0_0_0_7.jpg"
             }
         ]
     },
@@ -58,7 +58,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "744eb4f9-cecf-444e-b700-e9d629f1d16b"
+                        "value": "cd7195e9-8684-4202-b119-71e8bec397b1"
                     }
                 ],
                 "lang": "en"
@@ -76,7 +76,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "744eb4f9-cecf-444e-b700-e9d629f1d16b"
+                        "value": "cd7195e9-8684-4202-b119-71e8bec397b1"
                     }
                 ]
             }
@@ -85,7 +85,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/services_5_0_0_0_0.jpg"
+                        "href": "http:\/\/default\/sites\/default\/files\/services_5_0_0_0_0_7.jpg"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"

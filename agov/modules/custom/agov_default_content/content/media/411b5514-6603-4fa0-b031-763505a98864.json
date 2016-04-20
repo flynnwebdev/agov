@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/media\/12?_format=hal_json"
+            "href": "http:\/\/default\/media\/4?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
@@ -9,17 +9,6 @@
         "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/video_thumbnails\/48056421.jpg"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -58,48 +47,13 @@
                 },
                 "uuid": [
                     {
-                        "value": "e482a06d-2d9c-465b-9a3f-5cbefb5d9263"
+                        "value": "0b90ca98-49c3-48d9-800c-27d2b7ecf4ee"
                     }
                 ],
                 "alt": "Thumbnail",
                 "title": "DrupalCon Sydney Promo",
                 "width": "640",
                 "height": "360"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/video\/revision_uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "12d53af3-34d3-4858-ab70-9c4d94b91942"
-                    }
-                ]
             }
         ]
     },

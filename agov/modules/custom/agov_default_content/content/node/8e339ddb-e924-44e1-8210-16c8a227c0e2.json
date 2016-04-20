@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/news\/getting-help?_format=hal_json"
+            "href": "http:\/\/default\/getting-help?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
@@ -14,12 +14,12 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/0?_format=hal_json"
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_article_image": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_article_media": [
             {
-                "href": "http:\/\/default\/sites\/default\/files\/article\/bigstock-happy-family-having-fun-outdoo-18400505_7_5_0_0_0_0.jpg"
+                "href": "http:\/\/default\/media\/6?_format=hal_json"
             }
         ]
     },
@@ -58,7 +58,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "744eb4f9-cecf-444e-b700-e9d629f1d16b"
+                        "value": "cd7195e9-8684-4202-b119-71e8bec397b1"
                     }
                 ],
                 "lang": "en"
@@ -68,7 +68,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/0?_format=hal_json"
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -76,30 +76,26 @@
                 },
                 "uuid": [
                     {
-                        "value": "744eb4f9-cecf-444e-b700-e9d629f1d16b"
+                        "value": "cbd7ba07-2741-4efd-b4cf-856a8e0c241b"
                     }
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_article_image": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_article_media": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/sites\/default\/files\/article\/bigstock-happy-family-having-fun-outdoo-18400505_7_5_0_0_0_0.jpg"
+                        "href": "http:\/\/default\/media\/6?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "059001a3-48e0-4892-bc00-0c7b47d131c0"
+                        "value": "ee63912a-6276-4081-93af-63ca66285594"
                     }
-                ],
-                "alt": "Family in a field",
-                "title": "",
-                "width": "900",
-                "height": "598"
+                ]
             }
         ]
     },
@@ -117,7 +113,7 @@
     ],
     "changed": [
         {
-            "value": "1445813602",
+            "value": "1461144570",
             "lang": "en"
         }
     ],
@@ -135,7 +131,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "1443509336"
+            "value": "1461144570"
         }
     ],
     "revision_translation_affected": [
