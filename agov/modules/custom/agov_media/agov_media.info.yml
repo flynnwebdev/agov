@@ -39,3 +39,4 @@ config_devel:
   - core.entity_view_display.media.video.full_page
   - core.entity_view_display.media.video.preview
   - core.entity_view_display.media.video.teaser
+  - image.style.media_teaser_medium
