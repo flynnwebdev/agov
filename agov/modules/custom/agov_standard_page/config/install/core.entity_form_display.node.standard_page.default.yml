@@ -31,11 +31,12 @@ content:
     weight: 7
     settings:
       entity_browser: media_browser
-      field_widget_display: label
+      field_widget_display: rendered_entity
       field_widget_edit: '1'
       field_widget_remove: '1'
       open: 0
-      field_widget_display_settings: {  }
+      field_widget_display_settings:
+        view_mode: ''
     third_party_settings: {  }
     type: entity_browser_entity_reference
   path:
