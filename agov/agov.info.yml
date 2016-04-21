@@ -54,13 +54,6 @@ dependencies:
   - agov_publication
   - agov_media
 
-  - media_entity
-  - media_entity_image
-  - video_embed_media
-  - entity_embed
-  - entity_browser
-  - entity_browser_entity_form
-
 configurable_dependencies:
   agov_default_content:
     label: aGov Default Content
