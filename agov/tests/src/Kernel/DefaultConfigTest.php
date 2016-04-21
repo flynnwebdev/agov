@@ -24,15 +24,7 @@ class DefaultConfigTest extends KernelTestBase {
   use AssertConfigTrait;
 
   /**
-   * Disable strict config schema for the KTB.
-   *
-   * Contrib modules are having issues cleanly installing/validating with KTB.
-   * The config schema issues are caught in the web tests, where the whole
-   * profile is installed, but this allows us not to require all of our contrib
-   * deps have validatable schema with KTB while allowing the files on config
-   * objects on disk to match the ones that are installed.
-   *
-   * @var bool
+   * This test doesn't respect the exclusions in AgovTestBase, so dont check.
    */
   protected $strictConfigSchema = FALSE;
 
