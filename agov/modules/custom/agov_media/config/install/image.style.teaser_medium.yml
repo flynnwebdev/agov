@@ -4,8 +4,8 @@ dependencies: {  }
 name: teaser_medium
 label: 'Teaser Medium'
 effects:
-  3b2f39aa-9c4a-40f3-a600-ddf9ea91e19c:
-    uuid: 3b2f39aa-9c4a-40f3-a600-ddf9ea91e19c
+  072d51cf-277d-49d5-8106-6d8f89e58afc:
+    uuid: 072d51cf-277d-49d5-8106-6d8f89e58afc
     id: image_scale_and_crop
     weight: 1
     data:
