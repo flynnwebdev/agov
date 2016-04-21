@@ -29,6 +29,8 @@ config_devel:
   - views.view.media_browser
   - entity_browser.browser.media_browser
   - image.style.media_preview
+  - image.style.full_page_wide
+  - image.style.teaser_medium
   - core.entity_view_mode.media.full_page
   - core.entity_view_mode.media.preview
   - core.entity_view_mode.media.teaser
