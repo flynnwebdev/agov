@@ -24,7 +24,7 @@ class DefaultConfigTest extends KernelTestBase {
   use AssertConfigTrait;
 
   /**
-   * This test doesn't respect the exclusions in AgovTestBase, so dont check.
+   * Schema issues are caught in the aGov web tests.
    */
   protected $strictConfigSchema = FALSE;
 
