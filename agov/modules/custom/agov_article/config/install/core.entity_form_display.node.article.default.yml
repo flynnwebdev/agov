@@ -41,9 +41,9 @@ content:
       field_widget_display: rendered_entity
       field_widget_edit: '1'
       field_widget_remove: '1'
-      open: 0
       field_widget_display_settings:
-        view_mode: ''
+        view_mode: preview
+      open: 0
     third_party_settings: {  }
     type: entity_browser_entity_reference
   path:

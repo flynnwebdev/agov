@@ -31,6 +31,21 @@ content:
         fences_field_item_classes: ''
         fences_label_tag: div
         fences_label_classes: ''
+  field_article_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      fences:
+        fences_field_tag: div
+        fences_field_classes: teaser__image-wide
+        fences_field_item_tag: div
+        fences_field_item_classes: ''
+        fences_label_tag: div
+        fences_label_classes: ''
   title:
     type: linked_and_wrapped
     settings:
@@ -49,5 +64,4 @@ content:
         fences_label_classes: ''
 hidden:
   field_article_date: true
-  field_article_media: true
   links: true
