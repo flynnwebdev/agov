@@ -4,25 +4,25 @@ api = 2
 defaults[projects][subdir] = "contrib"
 
 ; Contrib modules
-projects[admin_toolbar][version] = 1.15
+projects[admin_toolbar][version] = 1.16
 projects[layout_plugin][version] = 1.0-alpha22
-projects[ctools][version] = 3.0-alpha22
+projects[ctools][version] = 3.0-alpha26
 projects[twitter_block][version] = 2.1
-projects[linkicon][version] = '1.2'
-projects[pathauto][version] = '1.0-alpha1'
-projects[workbench_moderation][version] = '1.0'
+projects[linkicon][version] = '1.3'
+projects[pathauto][version] = '1.0-alpha3'
+projects[workbench_moderation][version] = '1.1'
 projects[metatag][version] = '1.x-dev'
 projects[agls][version] = '1.x-dev'
 projects[scheduled_updates][version] = '1.0-alpha5'
 projects[simple_sitemap][version] = '2.5'
-projects[video_embed_field][version] = '1.0'
-projects[embed][version] = '1.0-rc2'
-projects[media_entity][version] = '1.0'
-projects[media_entity_image][version] = '1.0'
+projects[video_embed_field][version] = '1.2'
+projects[embed][version] = '1.0-rc3'
+projects[media_entity][version] = '1.3'
+projects[media_entity_image][version] = '1.2'
 projects[entity][version] = '1.0-alpha3'
-projects[entity_embed][version] = '1.0-alpha1'
+projects[entity_embed][version] = '1.0-alpha3'
 
-projects[panels][version] = 3.0-beta2
+projects[panels][version] = 3.0-beta4
 projects[panels][patch][] = https://www.drupal.org/files/issues/2699529-quote-colons-beta4-3.patch
 
 ; Development versions
