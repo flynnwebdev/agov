@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.article.field_article_date
     - field.field.node.article.field_article_media
     - node.type.article
+    - views.view.media_entity_browser
   module:
     - datetime
     - entity_browser
     - path
     - text
+    - views
 id: node.article.default
 targetEntityType: node
 bundle: article
